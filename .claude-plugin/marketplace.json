@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dusenko-plugins",
+  "description": "Personal fork of the Figma MCP plugin, trimmed to the skills used in the design-to-code workflow.",
+  "owner": {
+    "name": "Dmitry Usenko"
+  },
+  "plugins": [
+    {
+      "name": "figma",
+      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Fork with unused skills removed.",
+      "category": "design",
+      "source": "./",
+      "homepage": "https://github.com/dmitryusenko/mcp-server-guide"
+    }
+  ]
+}
